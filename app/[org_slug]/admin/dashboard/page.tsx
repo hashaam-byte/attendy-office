@@ -1,4 +1,4 @@
-import { createClient } from '@/lib/supabase/server'
+import { createClient } from '../../../../lib/supabase/server'
 import { format, subDays } from 'date-fns'
 import { notFound } from 'next/navigation'
 

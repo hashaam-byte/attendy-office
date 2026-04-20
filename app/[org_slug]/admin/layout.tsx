@@ -1,7 +1,7 @@
 'use client'
 import { useParams, usePathname, useRouter } from 'next/navigation'
 import Link from 'next/link'
-import { createClient } from '@/lib/supabase/client'
+import { createClient } from '../../../lib/supabase/client'
 import { useState, useEffect } from 'react'
 
 const NAV = [

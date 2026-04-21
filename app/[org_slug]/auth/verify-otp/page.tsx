@@ -1,7 +1,7 @@
 'use client'
 import { useState } from 'react'
 import { useRouter, useParams, useSearchParams } from 'next/navigation'
-import { createClient } from '@/lib/supabase/client'
+import { createClient } from '../../../../lib/supabase/client'
 
 type Stage = 'otp' | 'password' | 'done'
 
